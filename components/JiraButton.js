@@ -1,4 +1,4 @@
-import Jira from "../public/jira.png";
+import Jira from "../public/Jira.png";
 import Image from "next/image";
 
 // JiraButton component

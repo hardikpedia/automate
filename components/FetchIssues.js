@@ -8,7 +8,7 @@ import { getCookies } from "cookies-next";
 import { useRouter } from "next/router";
 import { clearCookies } from "@/utils/cookieHandler";
 import Image from "next/image";
-import Sprinklr from "../public/sprinklr.png";
+import Sprinklr from "../public/Sprinklr.png";
 import Alert from "@mui/material/Alert";
 import SearchableIssuesTable from "./IssuesTable";
 
