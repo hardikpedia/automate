@@ -4,7 +4,7 @@ import GitlabProvider from "next-auth/providers/gitlab";
 import { getCookie, getCookies, setCookie } from "cookies-next";
 import { encryptCookie } from "../cookieHandler";
 require("dotenv").config();
-import { collection, setDoc,doc } from 'firebase/firestore';
+import {  setDoc,doc } from 'firebase/firestore';
 import {db} from '../../../firebaseConfig'
 // Define the configuration options for NextAuth
 const nextAuthOptions = (req, res) => {
