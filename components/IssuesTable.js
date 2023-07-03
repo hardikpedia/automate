@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Search as SearchIcon } from "@material-ui/icons";
-import { Icon } from "@material-ui/core";
+import SearchIcon from '@mui/icons-material/Search';
+
 
 function SearchableIssuesTable({ issues }) {
   const [searchQuery, setSearchQuery] = useState("");

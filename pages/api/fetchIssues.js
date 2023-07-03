@@ -4,7 +4,6 @@ import { getCookies, hasCookie } from "cookies-next";
 import { getCloudId } from "@/services/getCloudId";
 import refreshTokens from "./refreshTokens";
 import { extractGitLabPullRequestLinks } from "@/utils/gitlabPrUtil";
-import cors from "cors";
 require("dotenv").config();
 import { collection, setDoc,doc,getDoc } from 'firebase/firestore';
 import {db} from '../../firebaseConfig'

@@ -11,7 +11,6 @@ import Image from "next/image";
 import Sprinklr from "../public/sprinklr.png";
 import Alert from "@mui/material/Alert";
 import SearchableIssuesTable from "./IssuesTable";
-import { validateJqlQuery } from "@/utils/jiraQueryValidator";
 
 export function FetchIssues() {
   const { setIssueRendered, setProjectId, setMergeIdList, issuesRendered } =
