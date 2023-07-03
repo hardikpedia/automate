@@ -2,7 +2,7 @@ import Cryptr from "cryptr";
 require("dotenv").config();
 
 // Create a Cryptr instance with the secret key from the environment variables
-const cryptr = new Cryptr("Harrypotter");
+const cryptr = new Cryptr(process.env.CRYPTO_SECRET_KEY);
 // Function to encrypt a cookie value
 export const encryptCookie = (text) => {
   if (!text) return;
