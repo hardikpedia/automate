@@ -15,7 +15,7 @@ Before running the app, make sure you have the following installed:
 - Atlassian account with API access
 
 ## Getting Started
-
+rfr
 1.  Clone the repository:  
     `git clone https://github.com/your-username/cherry-picking-automation-app.git`
 2.  Install the dependencies:  
